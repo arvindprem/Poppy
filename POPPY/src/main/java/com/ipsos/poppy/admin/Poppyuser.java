@@ -12,7 +12,7 @@ public class Poppyuser {
 private int id;
 private String name;
 private String lastName;
-private Date lic_expiratio_ndate;
+private Date licexpirationdate;
 
 
 
