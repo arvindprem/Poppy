@@ -7,10 +7,10 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 public class UserManagementController {
 
-	@GetMapping("/UserManagement")
+@GetMapping("/UserManagement")
 	public ModelAndView fullCallender() {
 		System.out.println("UserManagement.jsp");
-		return new ModelAndView("UserManagement");
+	return new ModelAndView("UserManagement");
 	}
-
+	
 }

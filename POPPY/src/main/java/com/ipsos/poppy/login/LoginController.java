@@ -28,6 +28,17 @@ public class LoginController {
 	public String validateUser(@ModelAttribute LoginValidate login, HttpServletRequest request) {
 		System.out.println(login);
 		HttpSession session = request.getSession();
+		if(login.getUserName().equalsIgnoreCase("Arvind"))
+		{
+			session.setAttribute("ResourceUserName", login.getUserName());
+			 
+				
+		}else if(login.getUserName().equalsIgnoreCase("Mahe"))
+		{
+			session.setAttribute("ResourceUserName", login.getUserName());
+		}
+		
+		
 		session.setMaxInactiveInterval(2 * 60);
 		session.setAttribute("ResourceUserName", login.getUserName());
 		return "Success";

@@ -30,15 +30,20 @@ public class LoginFilter implements Filter {
 		res.setHeader("Pragma", "no-cache");
 		res.setDateHeader("Expires", 0);
 
-		if (session.getAttribute("ResourceUserName") != null) {
+		if (String.valueOf(session.getAttribute("ResourceUserName")).equalsIgnoreCase("Arvind")) {
 			res.sendRedirect("Home");
-		} else {
+		} else if (String.valueOf(session.getAttribute("ResourceUserName")).equalsIgnoreCase("Mahe")) {
+			res.sendRedirect("UserManagement"); }
+		else{
 			chain.doFilter(request, response);
 		}
 	}
+
+	
 
 	@Override
 	public void destroy() {
 		System.out.println("LoginFilter Destroyed");
 	}
+	
 }

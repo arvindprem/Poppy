@@ -32,7 +32,7 @@
 										<th>User Name</th>
 										<th>First Name</th>
 										<th>Last Name</th>
-										<th>Description</th>
+									<th>Role</th>	
 										<th>Actions</th>
 									</tr>
 								</thead>
@@ -161,11 +161,18 @@
 										<div class="row">
 											<div class="col-md-1"></div>
 											<div class="col-md-4 text-left">
-												<label for="description">Description</label>
+												 <div>
+                <label for="role">Role</label>
+                
+               
+            </div>
 											</div>
 											<div class="col-md-6">
-												<textarea class="form-control" name="description"
-													id="description"></textarea>
+												<select name="role" id="role" required>
+                    <option>Super User</option>
+                    <option>Normal User</option>
+                     <option>ADMIN</option>
+                </select>
 											</div>
 										</div>
 									</div>

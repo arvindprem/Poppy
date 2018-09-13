@@ -52,6 +52,6 @@
 <link rel="stylesheet" type="text/css" href="js/plugins/alertify.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-<link rel="icon" href="localhost:8056/PoppyLogin/Poppy.ico">
+<link rel="icon" href="js/favicon.ico">
 
 </head>

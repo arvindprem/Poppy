@@ -126,11 +126,8 @@
 			<li class="treeview"><a class="app-menu__item" href="#"
 				data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span
 					class="app-menu__label">Plans</span><i
-					class="treeview-indicator fa fa-angle-right"></i></a>
-				<ul class="treeview-menu">
-					<li><a class="treeview-item" href="TestCases"> Test Cases</a></li>
-					<li><a class="treeview-item" href="TestPlans"> Test Plans</a></li>
-				</ul></li>
+					></i></a>
+				
 
 			<li class="treeview"><a class="app-menu__item" href="#"
 				data-toggle="treeview"><i class="app-menu__icon fa fa-database"></i><span
@@ -166,10 +163,7 @@
 				<ul class="treeview-menu">
 					<li><a class="treeview-item" href="/UserManagement"> User
 							Management</a></li>
-					<li><a class="treeview-item" href="#"> Audio Management</a></li>
-					<li><a class="treeview-item" href="#"> Notification Plan </a></li>
-					<li><a class="treeview-item" href="#"> Environment </a></li>
-					<li><a class="treeview-item" href="#"> SIP Account </a></li>
+					
 				</ul></li>
 		</ul>
 
