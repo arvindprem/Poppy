@@ -55,4 +55,9 @@ public class DataController {
 	public ModelAndView databaseImport() {
 		return new ModelAndView("DatabaseImport");
 	}
+	@GetMapping("/PoppyUser")
+	public ModelAndView PoppyUser() {
+		return new ModelAndView("PoppyUser");
+	}
+	
 }

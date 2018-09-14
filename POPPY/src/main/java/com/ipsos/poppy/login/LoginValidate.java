@@ -20,7 +20,7 @@ public class LoginValidate {
 	public void setEnableCookies(String enableCookies) {
 		this.enableCookies = enableCookies;
 	}
-
+	@PasswordValiidate
 	public String getWatchWord() {
 		return watchWord;
 	}

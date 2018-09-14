@@ -31,11 +31,12 @@ public class LoginController {
 		if(login.getUserName().equalsIgnoreCase("Arvind"))
 		{
 			session.setAttribute("ResourceUserName", login.getUserName());
-			 
+			session.setAttribute("", login.getWatchWord());
 				
 		}else if(login.getUserName().equalsIgnoreCase("Mahe"))
 		{
 			session.setAttribute("ResourceUserName", login.getUserName());
+			session.setAttribute("password", login.getWatchWord());
 		}
 		
 		

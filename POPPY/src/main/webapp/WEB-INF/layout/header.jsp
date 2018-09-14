@@ -144,6 +144,8 @@
 							Import</a></li>
 					<li><a class="treeview-item" href="DatabaseImport">
 							Database Import</a></li>
+							<li><a class="treeview-item" href="DatabaseImport">
+							PoppyUser</a></li>
 				</ul></li>
 
 			<li class="treeview"><a class="app-menu__item" href="#"

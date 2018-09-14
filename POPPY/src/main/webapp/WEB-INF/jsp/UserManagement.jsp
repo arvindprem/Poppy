@@ -171,7 +171,7 @@
 												<select name="role" id="role" required>
                     <option>Super User</option>
                     <option>Normal User</option>
-                     <option>ADMIN</option>
+                     <option>Reader User</option>
                 </select>
 											</div>
 										</div>
