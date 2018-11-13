@@ -20,7 +20,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                    <c:forEach items="${documents}" var="doc" varStatus="counter">
+                    <c:forEach items="documents" var="doc" varStatus="counter">
                         <tr>
                             <td>${counter.index + 1}</td>
                             <td>${doc.name}</td>

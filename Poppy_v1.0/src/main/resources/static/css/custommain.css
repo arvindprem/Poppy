@@ -1,0 +1,74 @@
+.fc-title {
+	font-size: 1.08em;
+}
+
+.alertify-logs {
+	z-index: 1500 !important;
+}
+
+.box {
+	width: 100%;
+	background-color: #efefef;
+	margin-top: 10px;
+	padding: 20px;
+	border-radius: 8px;
+}
+.aboutbox {
+	width: 100%;
+	background-color: #efefef;
+	margin-top: 10px;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.headerStyle {
+	display: inline-block;
+	background-color: teal;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 49px;
+	text-decoration: none;
+	white-space: nowrap;
+	padding-bottom: 5px;
+	color: #fff;
+	border-radius: 8px;
+}
+
+.modalbox {
+	width: 100%;
+	background-color: #efefef;
+	margin-top: 10px;
+	padding: 20px;
+	border-radius: 8px;
+	border-bottom: 2px solid teal;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.modal-dialog {
+	width: 400px !important;
+}
+
+@media ( min-width :992px) {
+	.modal-dialog {
+		width: 800px !important;
+	}
+}
+
+.modalheader {
+	display: inline-block;
+	background-color: #276565;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 49px;
+	text-decoration: none;
+	white-space: nowrap;
+	padding-bottom: 5px;
+	color: #fff;
+	border-radius: 8px;
+}
+
+.modalbox input, select {
+	font-weight: 400 !important;
+	font-size: 12px !important;
+}

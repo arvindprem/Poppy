@@ -54,6 +54,8 @@
 									<tr>
 										<th>S.No</th>
 										<th>Label</th>
+										<th>Actions</th>
+										
 										
 									</tr>
 								</thead>
@@ -65,7 +67,38 @@
 		</div>
 	</div>
 </div>
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog"
+	aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="modalbox">
+					<form id="editPoppyFeatureForm">
+						<div class="row modalheader">
+							<div class="col-md-8 col-md-6 col-6">
+								<span><i class="fa fa-edit"></i> Edit  Feature Info</span>
+							</div>
+							<div class="col-md-4 col-sm-6 col-6 text-right">
+								<button
+									class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"
+									data-toggle="tooltip" title="Save PoppyFeature">
+									<i class="material-icons">save</i>
+								</button>
 
+								<button
+									class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"
+									type="reset" data-toggle="tooltip" title="Reset">
+									<i class="material-icons">undo </i>
+								</button>
+
+								<button
+									class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"
+									type="reset" data-toggle="tooltip" title="Close"
+									data-dismiss="modal">
+									<i class="material-icons"> close </i>
+								</button>
+							</div>
+						</div>
 
 <div class="row spaceBetweenLines">
 	<div class="col-md-6 col-sm-12 col-12">
@@ -74,9 +107,15 @@
 			</label> <input type="text" class="form-control" name="Label"
 				id="Label"> <input type="hidden" name="id" id="id">
 		</div>
+		</div>
+	</div>
+	</form>
 	</div>
 	</div>
-
+	</div>
+	</div>
+	</div>
+	
 
 
 

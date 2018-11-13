@@ -49,20 +49,17 @@
 
 					<li><a class="treeview-item" href="/Group"> Group</a></li>
 					<li><a class="treeview-item" href="/Society"> Society</a></li>
-					<li><a class="treeview-item" href="DatabaseImport">
+					<li><a class="treeview-item" href="/ActivityPole">
 							ActivityPole</a></li>
 					<li><a class="treeview-item" href="/PoppyUser"> PoppyUser</a></li>
 					<li><a class="treeview-item" href="/PoppyFeature">
 							PoppyFeature</a></li>
 					<li><a class="treeview-item" href="/Surveys"> Survey</a></li>
-					<li><a class="treeview-item" href="DatabaseImport">
+					<li><a class="treeview-item" href="/AllowSurvey">
 							AllowsSurvey</a></li>
 					<li><a class="treeview-item" href="/Poppy"> Poppy</a></li>
-					<li><a class="treeview-item" href="DatabaseImport">
-							Continent</a></li>
-					<li><a class="treeview-item" href="DatabaseImport">
-							Country</a></li>
-							<li><a class="treeview-item" href="/add-document">
+					
+							<li><a class="treeview-item" href="/add-document-{Id}">
 							manageDocuments</a></li>
 				</ul></li>
 

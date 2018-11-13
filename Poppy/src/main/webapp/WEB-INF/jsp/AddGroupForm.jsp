@@ -34,10 +34,9 @@
 					<div class="row">
 						<div class="col-md-6 col-sm-11 col-12">
 							<div class="form-group">
-								<label for="label" class="font-weight-bold">Label
-									<span class="asterik">*</span>
-								</label> <input type="text" class="form-control" name="label"
-									id="label">
+								<label for="label" class="font-weight-bold">Label <span
+									class="asterik">*</span>
+								</label> <input type="text" class="form-control" name="label" id="label">
 							</div>
 						</div>
 						<div class="col-md-5 col-sm-12 col-12">
@@ -47,34 +46,33 @@
 									id="NbLicence">
 							</div>
 						</div>
-					</div>
-					
-						<div class="col-md-6 col-sm-12 col-12">
-							<div class="form-group">
-								<label for="Label" class="font-weight-bold">Country <span
-									class="asterik">*</span></label><select class="form-control"
-									name="country" id="country">
-<option value="India">IND</option>
-<option value="America">US</option>
+		
 
-
-								</select>
-							</div>
+					<div class="col-md-6 col-sm-12 col-12">
+						<div class="form-group">
+							<label for="Label" class="font-weight-bold">Country <span
+								class="asterik">*</span></label><select class="form-control"
+								name="country" id="country">
+								<option value="India">IND</option>
+								<option value="America">US</option>
+						</select>
 						</div>
 					</div>
-
-					
-					<div class="row">
-						<div class="offset-md-0 col-md-4 col-sm-12 col-12">
-							<small class="font-weight-bold"><span class="asterik">*</span>
-								Mandatory fields</small>
-						</div>
 					</div>
-					</form>
 				</div>
-			
+
+
+				<div class="row">
+					<div class="offset-md-0 col-md-4 col-sm-12 col-12">
+						<small class="font-weight-bold"><span class="asterik">*</span>
+							Mandatory fields</small>
+					</div>
+				</div>
+			</form>
 		</div>
+
 	</div>
+</div>
 
 
 <%@ include file="../layout/footer.jsp"%>

@@ -10,8 +10,8 @@
 						<div class="col-md-9 col-sm-10 col-8">
 							<span>Surveys</span>
 						</div>
-
-						<div class="offset-md-0 col-md-2col-sm-2 col-4 text-right">
+						
+						<div class="offset-md-1 col-md-2 col-sm-2 col-4 text-right">
 							<a href="AddSurveyInfo">
 								<button
 									class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"
@@ -19,8 +19,7 @@
 									<i class="material-icons">add </i>
 								</button>
 							</a>
-							<div class="offset-md-0 col-md-2 col-sm-2 col-4 text-right">
-							<a href="AddSurveyInfo">
+								<a href="AddSurveyInfo">
 								<button
 									class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab"
 									data-toggle="modal" data-target="#UpdateFolder" id="Updatewebsvc">
@@ -64,7 +63,7 @@
 									<th>Version</th>
 									<th>Creation DateTime</th>
 									<th>DownloadPath</th>
-
+									<th>Action</th>
 
 
 								</tr>
@@ -90,7 +89,7 @@
 		<span class="asterik">*</span><small> Mandatory fields</small>
 	</div>
 </div>
-</div>
+
 
 <%@ include file="../layout/footer.jsp"%>
 <%@ include file="../layout/foot.jsp"%>

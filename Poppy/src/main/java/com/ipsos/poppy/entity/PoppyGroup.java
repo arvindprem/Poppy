@@ -1,5 +1,6 @@
 package com.ipsos.poppy.entity;
 
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Set;
 
@@ -60,7 +61,15 @@ public class PoppyGroup {
 	}
 
 	public Date getLicexpirationdate() {
-		return licexpirationdate;
+		  Date date = new Date();
+		    Calendar cal = Calendar.getInstance();
+		    cal.setTime(date);
+		    cal.add(Calendar.MONTH, 12);
+
+		            java.util.Date licexpirationDate = cal.getTime();
+
+		  
+		return licexpirationDate;
 	}
 
 	public void setLicexpirationdate(Date licexpirationdate) {
@@ -82,5 +91,7 @@ public class PoppyGroup {
 	public void setSociety(Set<Society> society) {
 		this.society = society;
 	}
+
+	
 
 }

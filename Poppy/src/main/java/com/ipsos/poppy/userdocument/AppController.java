@@ -6,27 +6,25 @@ import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.servlet.ModelAndView;
-
 import com.ipsos.poppy.entity.Document;
 
-@Controller
+@RestController
 @RequestMapping("/")
 public class AppController {
 	  @Autowired
 	    UserDocumentService userDocumentService;
     
-    @GetMapping("/add-document")
-    public ModelAndView addDocuments(@PathVariable int id, ModelMap model) {
+	
+	@RequestMapping(value = { "/add-document-{Id}" }, method = RequestMethod.GET)
+    public String addDocuments(@PathVariable int id, ModelMap model) {
         
  
         FileBucket fileModel = new FileBucket();
@@ -35,7 +33,7 @@ public class AppController {
         Document documents = userDocumentService.findById( id);
         model.addAttribute("documents", documents);
          
-        return new ModelAndView("/managedocuments");
+        return "managedocuments";
     }
     @RequestMapping(value = { "/download-document-{id}-{docId}" }, method = RequestMethod.GET)
     public String downloadDocument(@PathVariable int id, @PathVariable int docId, HttpServletResponse response) throws IOException {

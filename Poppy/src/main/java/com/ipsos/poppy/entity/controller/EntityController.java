@@ -6,14 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 public class EntityController {
 
-	@GetMapping("/Group")
-	public ModelAndView groupView() {
-		return new ModelAndView("/Group");
-	}
-	@GetMapping("/AddGroupInfo")
-	public ModelAndView addGroupForm() {
-		return new ModelAndView("AddGroupForm");
-	}
+	
 	
 	@GetMapping("/Society")
 	public ModelAndView societyView() {
@@ -27,6 +20,10 @@ public class EntityController {
 	@GetMapping("/ActivityPole")
 	public ModelAndView activitypoleView() {
 		return new ModelAndView("/ActivityPole");
+	}
+	@GetMapping("/AddActivityPoleInfo")
+	public ModelAndView addActivityForm() {
+		return new ModelAndView("/AddActivityPoleForm");
 	}
 	@GetMapping("/PoppyFeature")
 	public ModelAndView poppyFeatureView() {
@@ -43,6 +40,10 @@ public class EntityController {
 	@GetMapping("/AllowSurvey")
 	public ModelAndView allowsurveyView() {
 		return new ModelAndView("/AllowSurvey");
+	}
+	@GetMapping("/AddAllowSurveyInfo")
+	public ModelAndView addAllowSurvey() {
+		return new ModelAndView("AddAllowSurvey");
 	}
 	@GetMapping("/Poppy")
 	public ModelAndView poppyversionView() {
